@@ -1,89 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>What's New and Exciting!</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>What's New and Exciting!</h1>
-        <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <ul class="nav nav-pills">
+  <header class="bg-light border-bottom mb-4">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">ITBA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="content.html" class="nav-link">Whats New!</a></li>
+            <li class="nav-item"><a href="content.html" class="nav-link active">What's New!</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Notes</a></li>
-            <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
           </ul>
-        </header>
-      </div>
+        </div>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="image-gallery">
-      <img src="img/eating.jpg" alt="People enjoying a picnic" width="300">
-      <img src="img/picknic.jpg" alt="Picnic food setup" width="300">
-      <img src="img/naturescenery.jpg" alt="Nature scenery" width="300">
+  <main class="container">
+    <h1 class="mb-4 text-center">What's New and Exciting!</h1>
+
+    <section class="row text-center mb-5">
+      <div class="col-md-4 mb-3">
+        <img src="img/eating.jpg" alt="People enjoying a picnic" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="img/picknic.jpg" alt="Picnic food setup" class="img-fluid rounded shadow-sm" />
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="img/naturescenery.jpg" alt="Nature scenery" class="img-fluid rounded shadow-sm" />
+      </div>
     </section>
 
-    <section class="picnic-spot">
+    <section class="mb-5">
       <h2>My Favorite Picnic Spot</h2>
       <p>
-        <strong>Emily Murphy Park</strong> in Edmonton is my favorite picnic spot. It's nestled along the North Saskatchewan River 
-        and offers beautiful green space, walking trails, and picnic tables surrounded by nature. 
-        To get there from downtown Edmonton, take Groat Road north and follow signs for Emily Murphy Park. 
-        There's ample parking and even access to a small beach area in summer.
+        <strong>Emily Murphy Park</strong> in Edmonton is my favorite picnic spot. It's nestled along the North Saskatchewan River and offers beautiful green space, walking trails, and picnic tables surrounded by nature. To get there from downtown Edmonton, take Groat Road north and follow signs for Emily Murphy Park. There's ample parking and even access to a small beach area in summer.
       </p>
       <p>
-        <a href="https://www.bing.com/search?q=google%20mapsEmily%20Murphy%20Park&qs=n&form=QBRE&sp=-1&lq=0&pq=google%20mapemily%20murphy%20park&sc=12-27&sk=&cvid=91992ADDD44C4BD98C55836D98B345AB" target="_blank">View on Google Maps</a>
+        <a href="https://www.google.com/maps/place/Emily+Murphy+Park" target="_blank">View on Google Maps</a>
       </p>
     </section>
 
-    <!-- Placeholder: Your square ad goes here -->
-    <div class="square-ad">
+    <div class="text-center mb-5">
       <a href="https://itba.netlify.app/">
-        <img src="img/Notepro.smallbanner.jpg" alt="Small Banner" style="width:300px; display:block; margin:20px auto;">
-    </a>
+        <img src="img/Notepro.smallbanner.jpg" alt="Small Banner" class="img-fluid" style="max-width: 300px;" />
+      </a>
     </div>
 
-     <div class="col-lg-8 mx-auto p-4 py-md-5">
-  <div class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <h2 class="fs-3">The Evolving Role of Business Analysts in Modern Organizations</h2>
-    </a>
-  </div>
+    <div class="mb-5">
+      <h2>The Evolving Role of Business Analysts in Modern Organizations</h2>
+      <p>Business analysts (BAs) have become indispensable in today’s data-driven organizations, bridging the gap between technical teams and business stakeholders to drive efficiency and innovation. A recent study highlights their critical role in identifying inefficiencies, optimizing workflows, and aligning solutions with strategic goals.</p>
 
-  <p class="fs-5">Business analysts (BAs) have become indispensable in today’s data-driven organizations, bridging the gap between technical teams and business stakeholders to drive efficiency and innovation. A recent study highlights their critical role in identifying inefficiencies, optimizing workflows, and aligning solutions with strategic goals.</p>
+      <h3>Process Optimization as a Core Responsibility</h3>
+      <p>Modern business analysts excel at mapping and refining operational workflows. For example, they might analyze a company’s order processing system to identify manual steps causing delays, then recommend automation tools to streamline tasks. This approach not only reduces errors but also frees up resources for higher-value activities.</p>
 
-  <h3 class="fs-4 mt-4">Process Optimization as a Core Responsibility</h3>
-  <p class="fs-5">Modern business analysts excel at mapping and refining operational workflows. For example, they might analyze a company’s order processing system to identify manual steps causing delays, then recommend automation tools to streamline tasks. This approach not only reduces errors but also frees up resources for higher-value activities. As noted in industry reports, “Business analysts dedicate 83% of their time to applying analysis practices across projects, ensuring solutions align with long-term objectives”.</p>
+      <h3>Data-Driven Decision-Making</h3>
+      <p>BAs leverage tools like SWOT and MOST analyses to evaluate organizational strengths and industry positioning. By collecting financial records, operational metrics, and stakeholder feedback, they transform raw data into actionable insights.</p>
 
-  <h3 class="fs-4 mt-4">Data-Driven Decision-Making</h3>
-  <p class="fs-5">BAs leverage tools like SWOT and MOST analyses to evaluate organizational strengths and industry positioning. By collecting financial records, operational metrics, and stakeholder feedback, they transform raw data into actionable insights. For instance, a BA in manufacturing might analyze machine uptime statistics to propose productivity enhancements. Their ability to “translate business needs into technical requirements” ensures that IT solutions directly address operational challenges.</p>
+      <h3>Stakeholder Collaboration</h3>
+      <p>Effective communication remains a cornerstone of the role. BAs act as mediators between departments, negotiating compromises when business goals clash with technical constraints.</p>
 
-  <h3 class="fs-4 mt-4">Stakeholder Collaboration</h3>
-  <p class="fs-5">Effective communication remains a cornerstone of the role. BAs act as mediators between departments, negotiating compromises when business goals clash with technical constraints. One example is reconciling a marketing team’s feature requests with an IT team’s feasibility concerns, ensuring viable solutions that satisfy both parties. Regular feedback loops and transparent reporting further strengthen cross-departmental trust.</p>
+      <h3>Industry Impact</h3>
+      <p>The demand for BAs is particularly strong in banking, finance, and technology. Government agencies also rely on their expertise to improve public services through data analysis.</p>
 
-  <h3 class="fs-4 mt-4">Industry Impact</h3>
-  <p class="fs-5">The demand for BAs is particularly strong in banking, finance, and technology, where 24% of professionals operate. Government agencies also rely on their expertise to improve public services through data analysis. As organizations grow more complex, the BA’s role in fostering adaptability and continuous improvement becomes increasingly vital.</p>
+      <blockquote class="blockquote">
+        “Business analysts are the unsung heroes of process improvement, driving organizational success through meticulous analysis and stakeholder alignment.”
+      </blockquote>
 
-  <blockquote class="blockquote fs-5 mt-4">
-    “Business analysts are the unsung heroes of process improvement, driving organizational success through meticulous analysis and stakeholder alignment.”
-  </blockquote>
-       <h3 class="fs-4 mt-4">News Articles - Click The Links!</h3>
-  <p class="fs-5"><a href="https://www.edstellar.com/blog/business-analyst-roles-and-responsibilities" class="nav-link">11 Key Roles and Responsibilities of a Business Analyst in 2025</a></p>
-  <p class="fs-5"><a href="https://ca.indeed.com/career-advice/resumes-cover-letters/business-analyst-roles-and-responsibilities" class="nav-link">Understanding Business Analyst Roles and Responsibilities</a></p>
-      <p class="fs-5"><a href="https://holistiquetraining.com/en/news/business-analysis" class="nav-link">What Is Business Analysis? Processes & Techniques</a></p>
-      <p class="fs-5"><a href="https://www.adaptiveus.com/blog/role/business-process-analyst/" class="nav-link">Business Process Analyst in 2025 | Free Career Guide</a></p>
-      
-</div>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 ITBA</p>
-  </footer>
-</body>
-</html>
+      <h3>News Articles - Click The Links!</h3>
+      <ul>
+        <li><a href="https://www.edstellar.com/blog/business-analyst-roles-and-responsibilities" target="_blank">11 Key Roles and Responsibilities of a Business Analyst in 2025</a></li>
